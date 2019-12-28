@@ -22,7 +22,7 @@ class App extends Component{
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Quotes Claim</h1>
+          <h1>Author.ize</h1>
           <h6>Write any name in the text box to designate that person as the author of these quotes</h6>
           <UserInput text={this.state.text} userTyped={this.textChangeHandler}/>
           <UserOutput paragraph1='All that glitters is not gold'
